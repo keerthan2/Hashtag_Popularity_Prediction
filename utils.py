@@ -20,6 +20,7 @@ def scrap_all_tweets(hashtag,since, until, save_dir, consumer_key, consumer_secr
     new_tweets = api.search(q=hashtag, since=since, until=until, count=100)
     base_tweets.extend(new_tweets)
     oldest = base_tweets[-1].id - 1
+    
     print("Starting to collect tweets")
     while (len(base_tweets) < 20000) and (len(new_tweets) > 0):
         print( "scraped tweets before %s" % (oldest))

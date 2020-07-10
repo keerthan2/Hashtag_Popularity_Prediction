@@ -17,13 +17,13 @@ NOTE: You need to have a Twitter Developer Account inorder to scrap data. If you
 
 The data for #DarkNetflix was scrapped from 27/06/2020 for a maximum of 20000 entries. The scrapped data will be in a JSON format. We try to specifically extract the following entities from the data.
 
-1. number of retweets
-2. number of mentions
-3. number of hashtags
-4. number of urls
-5. number of followers
-6. number of favourites
-7. time at which the post was created (which will be converted to a time stamp)
+1. Number of retweets
+2. Number of mentions
+3. Number of hashtags
+4. Number of urls
+5. Number of followers
+6. Number of favourites
+7. Time at which the post was created (which will be converted to a time stamp)
 
 Once the data is scrapped, we batch entities 1 to 6 with a window of one minute. Therefore, the final data is made with entries corresponding to different minutes.
 

@@ -9,8 +9,8 @@ access_secret = # Add your access secret
 
 hashtag = "#DarkNetflix"
 download_data = True
-since = "2020-06-27" # ignore if download_data is False. Must be utmost 20 days from the current date
-until = "2020-06-28" # ignore if download_data is False. Must be utmost 20 days from the current date
+since = "2020-06-27" # ignore if download_data is False. Must be utmost 20 to 25 days from the current date
+until = "2020-06-28" # ignore if download_data is False. Must be utmost 20 to 25 days from the current date
 save_dir = './data' # Directory to save the data. 
 
 if not os.path.exists(save_dir):

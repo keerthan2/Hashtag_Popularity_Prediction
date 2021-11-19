@@ -1,4 +1,4 @@
-# Hashtag_Popularity_Prediction
+# Hashtag Popularity Prediction
 Predicting the popularity of a given hashtag using standard regression techniques such as Linear Regression, Random Forest and Non-linear SVM. 
 
 Done as a part of summer remote project in Northwestern University.
